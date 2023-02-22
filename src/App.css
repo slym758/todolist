@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.input_container {
+  margin-top: 150px;
+}
+
+.input_box {
+  padding: 5px;
+  height: 25px;
+  border: 2px solid rgb(55, 15, 235);
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.input_button {
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 2px solid rgb(55, 15, 235);
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list button {
+  cursor: pointer;
+  background-color: #fff;
+  border: #fff;
+  font-size: 20px;
+  width: 250px;
+}
+
+.list_li {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: start;
+  margin-top: 25px;
+  border: 2px solid rgb(55, 15, 235);
+  width: 25%;
+  list-style-type: none;
+}
+
+.icons {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.line-through {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
